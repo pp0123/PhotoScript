@@ -3,7 +3,7 @@ from datetime import datetime
 from PIL import Image
 from PIL.ExifTags import TAGS
 import shutil
-from tqdm import tqdm  # <--- New import
+from tqdm import tqdm
 
 
 def get_exif_date(path):
