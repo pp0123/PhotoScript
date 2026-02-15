@@ -36,7 +36,7 @@ def organize_photos():
     print(f"Organizing {len(files_to_move)} photos...")
 
     # Wrap the list in 'tqdm' to create the progress bar
-    for filename in tqdm(files_to_move, desc="Processing Photos", unit="img"):
+    for filename in tqdm(files_to_move, desc="Processing", colour="green", unit="img"):
         file_path = os.path.join(source_dir, filename)
         date = get_exif_date(file_path)
 
