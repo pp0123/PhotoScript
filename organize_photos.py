@@ -53,3 +53,4 @@ def organize_photos():
 
 if __name__ == "__main__":
     organize_photos()
+    print("All photos organized successfully!")
